@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "metagpt-demos"
+version = "0.1.0"
+description = ""
+authors = ["revupst <revup123456@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+metagpt = "0.6.6"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
